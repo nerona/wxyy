@@ -1,0 +1,9 @@
+<!--miniprogram/pages/vantPage/vantPage.wxml-->
+<view class='container'>
+    <view class='item'>
+        <van-button type='danger' bindtap='getData'> Button </van-button>
+    </view>
+    <view class='item'>
+    <button open-type='share'>share</button>
+    </view>
+</view>

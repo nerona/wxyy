@@ -15,6 +15,10 @@ Page({
         fileID: ''
     },
 
+    onReachBottom: function () {
+        console.log('bottom')
+    },
+
     onLoad: function () {
         console.log(Base64.encode('你好'))
         if (!wx.cloud) {
